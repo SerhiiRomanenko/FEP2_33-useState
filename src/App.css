@@ -1,0 +1,52 @@
+.wrapper {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.smiles {
+  border-radius: 10px;
+  background-color: #9ED3E6;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.smileCard {
+  display: flex;
+  flex-direction: row;
+  background-color: #F07376;
+  margin: 5px;
+  max-width: 100%;
+  padding: 3px 10px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.smileCard__emoji {
+  display: inline;
+  margin: 0;
+  font-size: 30px;
+}
+.smileCard__counter {
+  font-size: 25px;
+}
+.smileCard__add {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  background-color: #95C0D0;
+  border-radius: 12px;
+  border: 0;
+  cursor: pointer;
+}
+
+.winners {
+  font-size: 25px;
+}
